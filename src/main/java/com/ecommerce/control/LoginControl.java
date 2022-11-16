@@ -104,4 +104,9 @@ public class LoginControl extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         service(request, response);
     }
+    String name;
+    
+    public String tostring() 
+    { 
+        this.name;
 }
